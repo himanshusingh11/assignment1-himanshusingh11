@@ -7,14 +7,25 @@ package main;
 // import java.util.Scanner;
 // uncomment the above line to use input in your program.
 
+import java.util.Scanner;
+
 public class Gravity {
-	// TODO 1: Create the main method
-	public static void main(String[] args) {
-		/* TODO 2:
-		 *   a. Declare all your necessary variables inside main method.
-		 *   b. Declare a constant for 'gravity', assume the value to be 9.8
-		 *   c. Calculate the result and print it to the screen.
-		 * */
+
+
+
+
+		public static double speed;     // speed is given in meters per second
+		public static double distance;      //distance is in meters
+
+		public static void main(String[] args) {
+			float g = 9.8f;
+			double time;//time is taken in seconds
+			Scanner sc = new Scanner(System.in);
+			time = sc.nextDouble();
+
+			System.out.println("the speed of the object at time t seconds after its release is  : " + (g * time) + "m/s" + "the distance the object has travelled in those t seconds after its release is : " + 0.5 * g * Math.pow(time, 2) + "meters");
+
+
+		}
 	}
-	// P.S: Refer to the README.md file for the problem statement, input & output.
-}
+
