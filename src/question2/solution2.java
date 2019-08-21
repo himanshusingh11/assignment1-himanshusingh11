@@ -5,6 +5,9 @@ public class solution2 {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);  // to create an object of the Scanner class
+            String s1 = scanner.nextLine();
+            String s2 = scanner.nextLine();
+
 
 
             scanner.close();
