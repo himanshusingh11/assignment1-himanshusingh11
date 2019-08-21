@@ -7,7 +7,7 @@ public class solution1 {
         Scanner scanner = new Scanner(System.in);  // to create an object of the Scanner class
         // write your code here
         String s = scanner.nextLine();
-        System.out.println("Welcome " + " " + s + "!");
+        System.out.println("Welcome, " + " " + s + "!");
         scanner.close();
     }
 }
