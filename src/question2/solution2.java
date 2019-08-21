@@ -1,6 +1,8 @@
 package question2;
 
-public class solution2 {
+public class
+
+solution2 {
     import java.util.Scanner;  //   to import the Scanner class inside your program
 
     public class Main {
