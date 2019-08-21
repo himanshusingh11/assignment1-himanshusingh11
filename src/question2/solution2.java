@@ -1,14 +1,13 @@
 package question2;
 
-public class
+import java.util.Scanner;
 
-solution2 {
-    import java.util.Scanner;  //   to import the Scanner class inside your program
-
+public class solution2 {
     public class Main {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);  // to create an object of the Scanner class
-            // write your code here
+
+
             scanner.close();  // write this line at the end of the main method
         }
     }
