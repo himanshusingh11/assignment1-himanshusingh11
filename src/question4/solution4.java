@@ -13,6 +13,7 @@ public class solution4 {
         } else {
             System.out.println("Zero");
         }
+        sc.close();
 
 
     }
